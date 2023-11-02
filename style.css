@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&family=Poppins&family=Roboto&display=swap');
+
+/**Not in order**/
+/**Things are reused in some/all pages**/
+/**Code is copied from my own assessments i swear to god**/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+   position: relative;
+   height: 100vh;
+   width:100vw;
+}
+/** Header Start**/
+.header {
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    display: flex;
+    background-color: #1B4079;
+    padding: 0 3vw; 
+}
+.header .logo {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    margin-left: 10vw; 
+}
+.header  .links {
+    display: flex;
+    align-items: center;
+}
+.header .links a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;;
+    margin-right: 1vh;
+    border-radius: 1.5vw;
+    background-color: white;
+    padding: 0.75vw;
+    cursor: pointer;
+    transition: background-color 0.5s ease;   
+   
+}
+.header .links a:hover {
+    background-color: #CBC3E3;
+}
+/** Header End**/
+/**Banner Start**/
+.banner {
+    background-color: #39A9DB ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner .bannertxt {
+    text-align: left;
+    margin-top: 5vh;
+    padding-left: 5vh;
+}
+.banner .bannertxt h2 {
+    font-size: 5vw;
+    font-family:  'Poppins', sans-serif;
+    color: white;
+}
+.banner .bannertxt p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:3vw;
+    color: black;
+    margin-bottom: 3vw;
+}
+.banner .bannertxt a {
+    border-radius: 0vw;
+    padding: 1.5vw;
+    background-color: #5CE1E6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+    
+}
+/**Banner End**/
+/**Footer Start**/
+.footer {
+    height: 5vh;
+    width: 100%;
+    display:flex;
+    position: relative;
+    background-color:#1B4079;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer .copyright {
+    position: relative;
+    margin-left: 2vw;
+    font-size:1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.footer .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2vw;
+      
+
+}
+
+.footer .socials img {
+    height: 3vh;
+    width: 3vw;
+    border-radius: 50%;
+    margin-right: 0.25vw;
+    
+}
+/**Footer End**/
+/**Background/Study Start**/
+.banner .studytxt {
+    padding: 5vh;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.banner .studytxt h2{
+   margin-top: 1vw;
+   text-align: left;
+   font-family: 'Poppins', sans-serif;
+   font-size: 3vw;
+   font-weight: 700;
+   color: white;
+   margin-bottom: 0.2vh;
+
+}
+
+.banner .studytxt p{
+    margin-bottom: 3.5vh;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-align: left;
+}
+.banner .tbutton{
+    display: flex;
+    align-items: center;
+    margin-top: -1vh;
+    
+}
+ .banner .tbutton a{
+    border-radius: 5vh;
+    padding:  1vw;
+    background-color: #5CE1E6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+    font-size: 1.25w;    
+}
+/**Background/Study End**/
+/**Intro Start**/
+.banner2 {
+    background-color: #39A9DB ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:1.75vh;
+    
+}
+.banner2 .introtxt  {
+   display:flex;
+   flex-direction: column;
+   justify-content:flex-start;
+   align-items: flex-end;
+   margin-right:0.5vw;
+
+}
+.banner2 .introtxt h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+    text-align:right;
+}
+.banner2 .introtxt p {
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: black;
+    text-align:right;
+}
+.banner2 .introtxt2 {
+   display:flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: flex-start;
+   margin-left:0.5vw;
+} 
+.banner2 .introtxt2 h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+}
+.banner2 .introtxt2 p{
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: black;
+}
+/**Intro End**/
+/**Conclusion Start**/
+.banner .concludetxt {
+    padding: 5vh;
+
+}   
+.banner .concludetxt h2 {
+    margin-top: -25vh;
+    margin-bottom: 0.2vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+    
+}
+.banner .concludetxt p{
+    margin-bottom: 3.5vh;
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: black;
+   
+}
+/**Conclusion End**/
+/**Discussion parts 1,2,3 Start**/
+.banner3 {
+    background-color: #39A9DB ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    flex-direction:column;
+   justify-content: center;
+    text-align: center;
+    position:relative;
+   
+}
+.banner3 .gallery {
+   
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2vh;
+   
+    
+}
+.banner3 .image img {
+   width: 22vw;
+   height: 40vh;
+
+}
+.banner3 .first {
+    margin-left: 16vw;
+}
+.banner3 .second {
+    margin-left: 1vw;
+}
+.banner3 .third {
+    margin-left: 1vw;
+}
+.banner3 .discusstxt{
+ height: 35vh;
+   
+   
+}
+.banner3 .discusstxt h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.banner3 .discusstxt p {
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.banner3 .button {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+
+
+}
+.button a{
+    border-radius: 5vh;
+    padding: 1.5vw; 
+    text-align: center;
+    background-color: #5CE1E6;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+/**Discussion parts 1,2,3 end**/
+/**Table starts**/
+
+.banner3 table, th, td {
+    border: 1px solid black;
+    margin: auto;
+
+}
+.banner3 td img {
+    height:65vh;
+    width: 19vw;
+}
+.banner3 .title {
+    padding: 0.5vh;
+    text-align: center;
+    
+}
+.banner3 .title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+/**Table Ends**/
+/**About starts**/
+
+.banner3 .abouttitle{
+    text-align: center;
+    padding-top: 2vh;
+}
+.banner3 .abouttitle h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+ 
+}
+.banner3 .aboutgallery {
+ 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.banner3 .aboutimage img {
+    max-height: 30vh;
+    max-width: 22vw;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center;
+    
+}
+.banner3 .aboutsecond {
+    margin-left: 3vw;
+}
+.banner3 .aboutthird {
+    margin-left: 3vw;
+}
+.banner3 .abouttxt {
+    display: flex;
+    font-family: 'Montserrat', 'sans-serif' ;
+    font-size: 1vw;
+    font-weight: 500;
+    color: black;
+
+}
+.banner3 .paragraph1 {
+    flex: 1;
+    margin: 20px;
+    text-align: left;
+    
+}
+.banner3 .paragraph2 {
+    flex: 1;
+    margin: 20px;
+    text-align: left;
+    
+}
+/**About End**/
